@@ -1,0 +1,22 @@
+.hero-section {
+  height: 80vh;
+}
+
+.hero-section h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.gray-text {
+  color:#727274;
+  ;
+}
+
+.socials {
+  margin-top: 80px;
+}
+
+.socials img {
+  width: 20px;
+  height: 20px;
+}
