@@ -1,8 +1,8 @@
-import About from '../src/components/About';
-import Contact from '../src/components/Contact';
-import Portfolio from '../src/components/Portfolio';
-import Navigation from '../src/components/Navigation';
-import Hero from './components/Hero';
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
+import Portfolio from './components/Portfolio/Portfolio';
+import Navigation from './components/Navigation/Navigation';
+import Hero from './components/Hero/Hero';
 
 const App = () => {
   return (

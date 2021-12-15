@@ -1,10 +1,10 @@
 import React from 'react'
 import {Row, Col, FloatingLabel, Form, Button} from 'react-bootstrap';
-import github from '../assets/icons/github.png';
-import linkedin from '../assets/icons/linkedin.png';
-import angellist from '../assets/icons/angellist.png';
-import medium from '../assets/icons/medium.png';
-import '../styles/Contact.css';
+import github from '../../assets/icons/github.png';
+import linkedin from '../../assets/icons/linkedin.png';
+import angellist from '../../assets/icons/angellist.png';
+import medium from '../../assets/icons/medium.png';
+import '../Contact/Contact.css';
 
 export default function Contact() {
     return (

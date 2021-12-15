@@ -1,8 +1,8 @@
 import React from 'react';
 import { LinkContainer } from 'react-router-bootstrap';
-import logo from '../assets/images/logo.svg';
-import '../styles/Navigation.css';
 import {Navbar, Nav, Container, Image} from 'react-bootstrap';
+import logo from '../../assets/images/logo.svg';
+import '../Navigation/Navigation.css';
 
 const Navigation = () => {
   return (

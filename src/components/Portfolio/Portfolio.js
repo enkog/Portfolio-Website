@@ -1,9 +1,9 @@
 import React from 'react';
-import penz from '../assets/images/penz-classes.png';
-import todo from '../assets/images/todo-list.png';
-import lifestyle from '../assets/images/lifestyle.png';
-import project4 from '../assets/images/tic-tac-toe.png';
-import '../styles/Portfolio.css';
+import penz from '../../assets/images/penz-classes.png';
+import todo from '../../assets/images/todo-list.png';
+import lifestyle from '../../assets/images/lifestyle.png';
+import project4 from '../../assets/images/tic-tac-toe.png';
+import '../Portfolio/Portfolio.css';
 
 export default function Portfolio() {
     return (
