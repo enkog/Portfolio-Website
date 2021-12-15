@@ -4,7 +4,7 @@ import github from '../assets/icons/github.png';
 import linkedin from '../assets/icons/linkedin.png';
 import angellist from '../assets/icons/angellist.png';
 import medium from '../assets/icons/medium.png';
-import './Hero.css';
+import '../styles/Hero.css';
 
 const Hero = () => {
   return (

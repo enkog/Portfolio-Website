@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
     return (
-        <div className='d-flex justify-content-between'>
+        <div className='d-flex justify-content-between' id='about'>
             <div>
                 <h3>About me</h3>
                 <p>

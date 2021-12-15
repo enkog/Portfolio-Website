@@ -4,10 +4,11 @@ import github from '../assets/icons/github.png';
 import linkedin from '../assets/icons/linkedin.png';
 import angellist from '../assets/icons/angellist.png';
 import medium from '../assets/icons/medium.png';
+import '../styles/Contact.css';
 
 export default function Contact() {
     return (
-        <div>
+        <div className='contact-section'>
             <h3>Interested in collaborating?</h3>
             <p>
             If you have an application you are interested in developing, a feature that you need built or a project that need coding, I’d love to help you with it.
@@ -51,7 +52,7 @@ export default function Contact() {
                     </p>
                 </Col>
             </Row>
-            <footer class="py-3 my-4">
+            <footer class="py-3">
     <p class="nav justify-content-center border-top pb-3 mb-3">
       © 2021 Oguadinma Nkiruka
     </p>
