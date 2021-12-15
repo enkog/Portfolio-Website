@@ -7,11 +7,13 @@ import {
 
 const App = () => {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" exact element={<Home />} />
-      </Routes>
-    </Router>
+    <div className="container">
+      <Router>
+        <Routes>
+          <Route path="/" exact element={<Home />} />
+        </Routes>
+      </Router>
+    </div>
   );
 }
 

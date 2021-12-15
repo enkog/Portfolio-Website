@@ -1,11 +1,11 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import logo from '../assets/logo.png';
+import logo from '../assets/images/logo.png';
 import './Navbar.css';
 
 const Navbar = () => {
   return (
-    <div className="mx-5 mb-5">
+    <div className="mb-5 sticky-top nav-section">
         <nav className="navbar navbar-expand-lg navbar-light">
             <Link to="/" className="navbar-brand"><img src={logo} alt="logo" /></Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

@@ -1,17 +1,16 @@
 import React from 'react'
-import peace from '../assets/peace.png';
-import bg1 from '../assets/bg-1.png';
-import github from '../assets/github.png';
-import linkedin from '../assets/linkedin.png';
-import angellist from '../assets/angellist.png';
-import medium from '../assets/medium.png';
+import peace from '../assets/images/peace.png';
+import github from '../assets/icons/github.png';
+import linkedin from '../assets/icons/linkedin.png';
+import angellist from '../assets/icons/angellist.png';
+import medium from '../assets/icons/medium.png';
 import './Hero.css';
 
 const Hero = () => {
   return (
     <div className="hero-section w-100">
       <div className='d-flex'>
-        <div className='ms-5'>
+        <div>
           <img src={peace} alt="peace emoji" className='mb-3' />
           <h1 className='mb-3'>Pretty code by <br/>ingenious person</h1>
           <p className='gray-text pe-5 w-75'>
@@ -27,10 +26,8 @@ const Hero = () => {
             </p>
           </div>
         </div> 
-      
-        <div className=''>
-          <img src={bg1} alt="background-1" />
-        </div>
+      </div>
+      <div className='bg-1'>
       </div>
     </div>
   )
