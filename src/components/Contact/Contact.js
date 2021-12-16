@@ -8,7 +8,7 @@ import '../Contact/Contact.css';
 
 export default function Contact() {
     return (
-        <div className='contact-section'>
+        <div className='contact-section text-center'>
             <h3>Interested in collaborating?</h3>
             <p>
             If you have an application you are interested in developing, a feature that you need built or a project that need coding, I’d love to help you with it.

@@ -1,4 +1,5 @@
 import React from 'react';
+import {Container} from 'react-bootstrap';
 import penz from '../../assets/images/penz-classes.png';
 import todo from '../../assets/images/todo-list.png';
 import lifestyle from '../../assets/images/lifestyle.png';
@@ -7,7 +8,7 @@ import '../Portfolio/Portfolio.css';
 
 export default function Portfolio() {
     return (
-        <div className='portfolio-section'>
+        <Container className='portfolio-section'>
             <h3 className='mb-5'>My best works</h3>
             <div className="row mb-3">
                 <div className="col-sm-6">
@@ -38,6 +39,6 @@ export default function Portfolio() {
                     </div>
                 </div>
                 </div>
-        </div>
+        </Container>
     )
 }
