@@ -18,7 +18,7 @@ const About = () => {
               Look through some of my work and experience! If you like what you see and have project you need coded, don’t hesistate to contact me.
             </p>
             <a href='https://drive.google.com/file/d/1oJw8PY82l4luwjBX4LZLL-KTmvxOgn7b/view?usp=sharing'>
-              <button type='button' className="btn mt-4">Get my Resume</button>
+              <button type='button' className="btn my-4">Get my Resume</button>
             </a>
           </Col>
           <Col xs={12} md={12} lg={6}>
