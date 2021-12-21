@@ -1,20 +1,23 @@
 import React from 'react';
-import { LinkContainer } from 'react-router-bootstrap';
+import {NavLink} from 'react-router-dom';
 import {Navbar, Nav, Container, Image} from 'react-bootstrap';
 import logo from '../../assets/images/logo.svg';
 import '../Navigation/Navigation.css';
 
 const Navigation = () => {
   return (
-    <Navbar className='sticky-top'>
+    <Navbar collapseOnSelect expand="lg">
       <Container>
-        <Navbar.Brand href="/"><Image src={logo} /></Navbar.Brand>
+      <Navbar.Brand href="intro"><Image src={logo} /></Navbar.Brand>
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav" className='w-100'>
         <Nav className="ms-auto">
-          <LinkContainer to="/" activeClassName="active"><span className="nav-link me-3">{'</Intro>'}</span></LinkContainer>
-          <LinkContainer to="about" activeClassName="active"><span className="nav-link me-3">About</span></LinkContainer>
-          <LinkContainer to="portfolio" activeClassName="active"><span className="nav-link me-3">Portfolio</span></LinkContainer>
-          <LinkContainer to="contact" activeClassName="active"><span className="nav-link me-3">Contact</span></LinkContainer>
+          <NavLink to="intro" activeClassName="active">{'</Intro>'}</NavLink>
+          <NavLink to="about" activeClassName="active">About</NavLink>
+          <NavLink to="portfolio" activeClassName="active">Portfolio</NavLink>
+          <NavLink to="contact" activeClassName="active">Contact</NavLink>
         </Nav>
+      </Navbar.Collapse>
       </Container>
     </Navbar>
   )

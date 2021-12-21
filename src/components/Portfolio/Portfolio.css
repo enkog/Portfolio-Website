@@ -1,7 +1,10 @@
-.card {
-  /* background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%); */
+/* .card {
   background: rgb(204,204,204);
   opacity: 1;
+} */
+.portfolio-section {
+  padding-top: 2rem;
+  min-height: 100vh;
 }
 
 .card-title {

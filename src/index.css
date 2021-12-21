@@ -1,17 +1,27 @@
 body {
   margin: 0;
   padding: 0;
-  background: #f2f2f2;
-  background-image: url(./assets/images/bg-1.png);
-  background-repeat: no-repeat;
-  background-position: right 30vh;
+  background: #fff;
   overflow-x: hidden;
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #222;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 800;
+}
+
+.badge {
+  background: none !important;
+  padding: 0 !important;
+  font-size: 15px;
+  margin-right: 10px;
+  font-weight: 300 !important;
 }
 
 .btn {

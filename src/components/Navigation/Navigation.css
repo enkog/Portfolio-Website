@@ -1,7 +1,7 @@
 .navbar {
   height: 20vh;
   z-index: 1;
-  background: #f2f2f2;
+  background: #fff;
 }
 
 .navbar-brand img {
@@ -10,10 +10,19 @@
 }
 
 .active {
-  color: #F9855B !important;
+  color: #F9855B;
 }
 
-.nav-link {
+.navbar-nav a {
   cursor: pointer;
   font-weight: 500;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .navbar-collapse
+    {
+      background-color:#fff;
+    }
 }

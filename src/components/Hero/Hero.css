@@ -1,23 +1,20 @@
 .hero-section {
-  min-height: 80vh;
+  min-height: 70vh;
+  margin-top: 5rem;
 }
 
 .hero-section h1 {
   font-size: 58px;
   line-height: 62px;
   letter-spacing: 0em;
+  margin-bottom: 2rem;
 }
 
 .gray-text {
-  color:#727274;
+  color:#545458;
   font-size: 15px;
 }
 
 .socials {
-  margin-top: 120px;
-}
-
-.socials img {
-  width: 30px;
-  height: 30px;
+  margin-top: 5rem;
 }

@@ -1,44 +1,32 @@
-import React from 'react';
-import {Container} from 'react-bootstrap';
-import penz from '../../assets/images/penz-classes.png';
-import todo from '../../assets/images/todo-list.png';
-import lifestyle from '../../assets/images/lifestyle.png';
-import project4 from '../../assets/images/tic-tac-toe.png';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 import '../Portfolio/Portfolio.css';
 
 export default function Portfolio() {
-    return (
-        <Container className='portfolio-section'>
-            <h3 className='mb-5'>My best works</h3>
-            <div className="row mb-3">
-                <div className="col-sm-6">
-                    <div className="card">
-                        <img src={penz} alt='project 1'/>
-                    </div>
-                </div>
-                <div className="col-sm-6">
-                    <div className="card">
-                    <img src={project4} alt='project 2' />
-                    </div>
-                </div>
-                </div>
-            <div className="row">
-                <div className="col-sm-4">
-                    <div className="card">
-                      <img src={todo} alt='project 3'/>
-                    </div>
-                </div>
-                <div className="col-sm-4">
-                    <div className="card">
-                      <img src={lifestyle} alt='project 4' />
-                    </div>
-                </div>
-                <div className="col-sm-4">
-                    <div className="card">
-                      <img src={penz} alt='project 5'/>
-                    </div>
-                </div>
-                </div>
-        </Container>
-    )
+    const data1 = [1,2];
+    const data2 = [1,2,3];
+  return (
+    <Container className='portfolio-section' id='portfolio' >
+      <h3 className='mb-5'>My recent works</h3>
+      
+      <Row className='mb-3'>
+        {data1.map((data, k) => (
+            <Col key={k} xs={12} md={6} lg={6}>
+                <Card >
+                    <Card.Img src={data} />
+                </Card>
+            </Col>
+        ))}
+      </Row>
+      
+      <Row>
+        {data2.map((data, k) => (
+            <Col key={k} xs={12} md={6} lg={4}>
+                <Card >
+                    <Card.Img src={data} />
+                </Card>
+            </Col>
+        ))}
+      </Row>
+    </Container>
+  )
 }

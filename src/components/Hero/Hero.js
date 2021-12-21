@@ -1,31 +1,30 @@
-import {Container} from 'react-bootstrap';
-import peace from '../../assets/images/peace.png';
-import github from '../../assets/icons/github.png';
-import linkedin from '../../assets/icons/linkedin.png';
-import angellist from '../../assets/icons/angellist.png';
-import medium from '../../assets/icons/medium.png';
+import { Container, Row, Col, Image } from 'react-bootstrap';
+import Social from '../Social';
+import profile from '../../assets/images/profile.svg';
 import '../Hero/Hero.css';
 
 const Hero = () => {
   return (
     <Container>
-        <div className="hero-section w-75 my-4">
-          <img src={peace} alt="peace emoji" className='mb-3' />
-          <h1 className='mb-4'>Pretty code by <br/>ingenious person</h1>
-          <p className='gray-text pe-5 w-75'>
-            Hello I am a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have project you need coded, don’t hesistate to contact me.
-          </p>
-          <div className='socials d-flex justify-content-between align-items-center w-50'>
-            <p className='gray-text'>My works in social networks</p>
-            <p>
-              <img src={github} alt="github icon" className='me-3' />
-              <img src={linkedin} alt="linkedin icon" className='me-3' />
-              <img src={medium} alt="medium icon" className='me-3' />
-              <img src={angellist} alt="angellist icon" />
-            </p>
-          </div>
+      <div className="hero-section" id="intro">
+        <Row className="justify-content-between align-items-start h-100">
+          <Col sm={6}>
+            <div>
+              <h1>Pretty code by <br/>ingenious person</h1>
+              <p className='gray-text'>
+                Hello I am a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have project you need coded, don’t hesistate to contact me.
+              </p>
+              <div className='socials d-flex justify-content-between'>
+                <p className='gray-text'>My works in social networks</p>
+                <Social />
+              </div>
+            </div>
+          </Col>
+          <Col sm={6} className='d-none d-lg-block text-end'>
+            <Image src={profile} alt='profile picture' width={300} height={300} />
+          </Col>
+        </Row>
       </div>
-      <div className='bg-1'></div>
     </Container>
   )
 }
