@@ -1,12 +1,12 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
-import {Navbar, Nav, Container, Image} from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
+import { Navbar, Nav, Container, Image } from 'react-bootstrap';
 import logo from '../../assets/images/logo.svg';
 import '../Navigation/Navigation.css';
 
 const Navigation = () => {
   return (
-    <Navbar collapseOnSelect expand="lg">
+    <Navbar collapseOnSelect expand="lg" className="sticky-top">
       <Container>
       <Navbar.Brand href="intro"><Image src={logo} /></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />

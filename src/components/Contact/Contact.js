@@ -1,4 +1,4 @@
-import {Container} from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import github from '../../assets/icons/github2.png';
 import linkedin from '../../assets/icons/linkedin2.png';
 import angellist from '../../assets/icons/angellist2.png';
