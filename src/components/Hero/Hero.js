@@ -1,6 +1,6 @@
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Row, Col, Container } from 'react-bootstrap';
 import Social from '../Social';
-import profile from '../../assets/images/profile.svg';
+// import bg1 from '../../assets/images/bg1.svg';
 import '../Hero/Hero.css';
 
 const Hero = () => {
@@ -16,9 +16,6 @@ const Hero = () => {
               </p>
               <Social />
             </div>
-          </Col>
-          <Col lg={6} className='d-none d-lg-block text-end'>
-            <Image src={profile} alt='profile picture' width={300} height={300} />
           </Col>
         </Row>
       </section>

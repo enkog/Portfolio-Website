@@ -11,7 +11,7 @@ const About = () => {
           <Col xs={12} md={12} lg={6}>
             <h3>About me</h3>
             <p>
-              My name is Nkiruka. I am a super self-motivated software engineer with great learning abilities and a desire to always exceed expected results.
+              My name is Nkiruka. I am a super self-motivated software engineer with great learning abilities and a desire to always exceed expected results.<br />
               I am willing, open, and ready to accept opportunities tailored at providing an ever progressive career experience and global exposure with both challenging and rewarding roles.
             </p>
             <p>

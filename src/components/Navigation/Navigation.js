@@ -6,9 +6,9 @@ import '../Navigation/Navigation.css';
 
 const Navigation = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" className="sticky-top">
+    <Navbar collapseOnSelect expand="lg" className="sticky-top" id='nav'>
       <Container>
-      <Navbar.Brand href="intro"><Image src={logo} /></Navbar.Brand>
+      <Navbar.Brand href="/"><Image src={logo} /></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav" className='w-100'>
         <Nav className="ms-auto">

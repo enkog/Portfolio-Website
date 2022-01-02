@@ -1,10 +1,12 @@
 body {
   margin: 0;
   padding: 0;
-  background: #fff;
+  background-color: #fff;
   overflow-x: hidden;
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
+  background: url(../src/assets/images/bg1.svg) no-repeat right 12%;
+  /* background: url(../src/assets/images/bg2.png) no-repeat left 85%; */
 }
 
 a {
@@ -37,4 +39,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   font-size: 15px;
   font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  body { background: none; }
 }

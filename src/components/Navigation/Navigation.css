@@ -5,8 +5,8 @@
 }
 
 .navbar-brand img {
-  width: 65px;
-  height: 35px;
+  width: 80px;
+  height: 40px;
 }
 
 .active {
@@ -16,13 +16,13 @@
 .navbar-nav a {
   cursor: pointer;
   font-weight: 500;
-  margin-left: 10px;
+  margin-left: 20px;
   margin-bottom: 5px;
 }
 
 @media (max-width: 768px) {
   .navbar-collapse
     {
-      background-color:#fff;
+      min-height: 100vh;
     }
 }

@@ -7,12 +7,12 @@ import '../Contact/Contact.css';
 
 const Contact = () => {
   return (
-    <section className='contact-section text-white pt-5 pb-3 text-center' id='contact'>
+    <section className='contact-section pt-5 pb-3 text-center text-white' id='contact'>
       <Container>
         <h3 className='mb-4'>Interested in collaborating?</h3>
         <Row className="justify-content-md-center">
           <Col md={6}>
-            <p className='mb-4'>
+            <p className='mb-5'>
               If you have an application you are interested in developing, a feature that you need built or a project that need coding, I’d love to help with it.
             </p>
           </Col>

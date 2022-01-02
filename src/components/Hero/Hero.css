@@ -1,5 +1,5 @@
 .hero-section {
-  min-height: 80vh;
+  /* min-height: 80vh; */
   margin-top: 5rem;
 }
 
@@ -18,3 +18,4 @@
 .socials {
   margin-top: 5rem;
 }
+
