@@ -1,4 +1,18 @@
-.portfolio-section {
-  padding: 2rem 0;
+#portfolio {
+  margin-bottom: 100px;
 }
 
+.card {
+  border: 1px solid #D0D9D4;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card img {
+  background: #EBF0EE;
+}
+
+.portfolio-language .badge {
+  background: #EBF0EE !important;
+  color: #172B4D;
+}

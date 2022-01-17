@@ -1,21 +1,50 @@
-.hero-section {
-  /* min-height: 80vh; */
-  margin-top: 5rem;
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+#hero {
+  font-family: 'Inter', sans-serif;
+  min-height: 650px;
+  margin-bottom: 5rem;
 }
 
-.hero-section h1 {
-  font-size: 58px;
-  line-height: 62px;
-  letter-spacing: 0em;
-  margin-bottom: 2rem;
+.main-hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
 }
 
-.gray-text {
-  color:#545458;
-  font-size: 15px;
+.sub-hero-text {
+  color: #42526E;
 }
 
-.socials {
-  margin-top: 5rem;
+.sec-color {
+  color: #36B37F;
 }
 
+.pri-color {
+  color: #172B4D;
+}
+
+.social-icons li {
+  margin: 0 0.5rem;
+}
+
+@media only screen and (max-width: 426px) {
+  #hero {
+    background: url(../../assets/images/header-illsutration-mobile@2x.png) no-repeat center center/cover;
+    min-height: 400px;
+  }
+
+  .navbar-collapse {
+    margin-top: 20px;
+    height: 100vh;
+    background: #e5e5e5;
+  }
+}
+
+@media only screen and (min-width: 426px) {
+  #hero {
+    background: url(../../assets/images/Header-llustration-desktop@2x.png) no-repeat center center/cover;
+  }
+}
