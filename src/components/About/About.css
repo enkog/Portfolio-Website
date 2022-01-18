@@ -11,8 +11,9 @@
   color: #42526E;
 }
 
-.card {
+#about .card {
   background: #EBF0EE;
+  height: 450px;
 }
 
 .card-title {

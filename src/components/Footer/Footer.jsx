@@ -7,13 +7,13 @@ import twitter from '../../assets/icons/twitter.svg';
 
 export default function Footer() {
     return (
-        <footer className='border-top pt-2'>
+        <footer className='border-top pt-2 mt-5'>
             <ul className='social-icons d-flex justify-content-center align-items-center'>
-                <li><img src={github} alt='github icon' /></li>
-                <li><img src={linkedin} alt=' linkedin icon' /></li>
-                <li><img src={twitter} alt='twitter icon' /></li>
-                <li><img src={angellist} alt='angellist icon' /></li>
-                <li><img src={medium} alt='medium icon' /></li>
+            <li><a href='https://github.com/enkog'><img src={github} alt='github icon' /></a></li>
+            <li><a href='https://www.linkedin.com/in/enkog/'><img src={linkedin} alt=' linkedin icon' /></a></li>
+            <li><a href='https://twitter.com/enkodes'><img src={twitter} alt='twitter icon' /></a></li>
+            <li><a href='https://angel.co/u/nkiruka-oguadinma'><img src={angellist} alt='angellist icon' /></a></li>
+            <li><a href='https://medium.com/@nkirukaogu'><img src={medium} alt='medium icon' /></a></li>
             </ul> 
         </footer>
     )

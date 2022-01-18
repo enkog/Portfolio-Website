@@ -3,6 +3,7 @@ import { Container, Row, Col, Button, Card, Badge } from 'react-bootstrap';
 import language from '../../assets/icons/language.svg';
 import framework from '../../assets/icons/framework.svg';
 import skills from '../../assets/icons/skills.svg';
+import { languages, frameworks, otherSkills } from '../skills';
 
 import './About.css';
 
@@ -18,7 +19,7 @@ export default function About() {
                     
                 </div>
                 <div className='mb-5 text-center'>
-                <Button>See My Resume</Button>
+                <a href='https://drive.google.com/file/d/17QqM5MpfoIq-_Y-x2QiDimdsTBbth2dH/view?usp=sharing'><Button>See My Resume</Button></a>
                 </div>
                 
                 <Row xs={1} md={3} className="g-4">
@@ -29,7 +30,7 @@ export default function About() {
                             <Card.Title className='mb-3'>Languages</Card.Title>
                             <Card.Text>
                               <div className='portfolio-language mb-3'>
-                                  <Badge className='me-2'>html</Badge>
+                                  {languages.map((skills)=><Badge className='me-2 mb-2'>{skills}</Badge>)}
                               </div>
                             </Card.Text>
                         </Card.Body>
@@ -42,7 +43,7 @@ export default function About() {
                             <Card.Title className='mb-3'>Frameworks</Card.Title>
                             <Card.Text>
                               <div className='portfolio-language mb-3'>
-                                  <Badge className='me-2'>html</Badge>
+                              {frameworks.map((skills)=><Badge className='me-2 mb-2'>{skills}</Badge>)}
                               </div>
                             </Card.Text>
                         </Card.Body>
@@ -55,7 +56,7 @@ export default function About() {
                             <Card.Title className='mb-3'>Skills</Card.Title>
                             <Card.Text>
                               <div className='portfolio-language mb-3'>
-                                  <Badge className='me-2'>html</Badge>
+                              {otherSkills.map((skill)=><Badge className='me-2 mb-2'>{skill}</Badge>)}
                               </div>
                             </Card.Text>
                         </Card.Body>
