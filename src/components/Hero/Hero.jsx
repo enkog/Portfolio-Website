@@ -3,32 +3,20 @@ import github from '../../assets/icons/github.svg';
 import linkedin from '../../assets/icons/linkedin.svg';
 import angellist from '../../assets/icons/angellist.svg';
 import medium from '../../assets/icons/medium.svg';
+import twitter from '../../assets/icons/twitter.svg';
 
 import './Hero.css';
 
 export default function Hero() {
     return (
         <section id="hero" className="container text-center">
-            {/* <nav>
-                <ul className="nav justify-content-center">
-                    <li class="nav-item">
-                        <a className="nav-link active" aria-current="page" href="#">Portfolio</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">About</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </nav> */}
             <nav id="portfolio-nav" class="navbar navbar-expand-md navbar-light">
                 <div class="container-fluid">
                     <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav justify-content-center align-items-center w-100">
+                    <ul class="navbar-nav justify-content-center align-items-center w-100 pri-color">
                         <li class="nav-item">
                           <a class="nav-link active" aria-current="page" href="#portfolio">Portfolio</a>
                         </li>
@@ -55,6 +43,7 @@ export default function Hero() {
                 <ul className='col social-icons d-flex justify-content-center align-items-center'>
                     <li><img src={github} alt='github icon' /></li>
                     <li><img src={linkedin} alt=' linkedin icon' /></li>
+                    <li><img src={twitter} alt='twitter icon' /></li>
                     <li><img src={angellist} alt='angellist icon' /></li>
                     <li><img src={medium} alt='medium icon' /></li>
                 </ul>   

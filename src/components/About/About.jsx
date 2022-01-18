@@ -10,12 +10,15 @@ export default function About() {
     return (
         <section id='about'>
             <Container>
-                <div className='text-center mb-5'>
-                    <h3>About</h3>
-                    <p>
+                <div className='row justify-content-center align-items-center flex-column text-center mb-3'>
+                    <h3 className='col'>About</h3>
+                    <p className='col-sm-8 about-text'>
                         I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
                     </p>
-                    <Button>See My Resume</Button>
+                    
+                </div>
+                <div className='mb-5 text-center'>
+                <Button>See My Resume</Button>
                 </div>
                 
                 <Row xs={1} md={3} className="g-4">
@@ -28,7 +31,6 @@ export default function About() {
                               <div className='portfolio-language mb-3'>
                                   <Badge className='me-2'>html</Badge>
                               </div>
-                              <Button className='mb-2'>See Project</Button>
                             </Card.Text>
                         </Card.Body>
                         </Card>
@@ -42,7 +44,6 @@ export default function About() {
                               <div className='portfolio-language mb-3'>
                                   <Badge className='me-2'>html</Badge>
                               </div>
-                              <Button className='mb-2'>See Project</Button>
                             </Card.Text>
                         </Card.Body>
                         </Card>
@@ -56,7 +57,6 @@ export default function About() {
                               <div className='portfolio-language mb-3'>
                                   <Badge className='me-2'>html</Badge>
                               </div>
-                              <Button className='mb-2'>See Project</Button>
                             </Card.Text>
                         </Card.Body>
                         </Card>

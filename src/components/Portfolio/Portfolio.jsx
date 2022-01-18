@@ -10,7 +10,7 @@ import './Portfolio.css';
 
 
 export default function Portfolio() {
-    const projects = [ lifestyle, ticTacToe, metrics, pokemon, todoList ];
+    const projects = [ lifestyle, ticTacToe, metrics, pokemon, todoList, todoList ];
     return (
         <section id='portfolio'>
             <Container>
@@ -20,8 +20,8 @@ export default function Portfolio() {
           {projects.map((project, k) => (
               <Col key={k} xs={12} md={6} lg={4}>
                   <Card>
-                      <Card.Img src={project} height={300} />
-                      <Card.Body className='text-center'>
+                      <Card.Img src={project} height={250} />
+                      <Card.Body className='text-center bg-white'>
                             <Card.Title className='mb-3'>Multi-Post Stories Gain+Glory</Card.Title>
                             <Card.Text>
                               <div className='portfolio-language mb-3'>

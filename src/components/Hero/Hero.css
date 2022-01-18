@@ -2,8 +2,8 @@
 
 #hero {
   font-family: 'Inter', sans-serif;
-  min-height: 650px;
-  margin-bottom: 5rem;
+  min-height: 800px;
+  margin-bottom: 3rem;
 }
 
 .main-hero-section {
@@ -11,7 +11,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 70px;
+  margin-top: 90px;
+}
+
+.nav-link {
+  color: #344563;
+  font-weight: 500;
 }
 
 .sub-hero-text {
@@ -39,7 +44,7 @@
   .navbar-collapse {
     margin-top: 20px;
     height: 100vh;
-    background: #e5e5e5;
+    background: #fff;
   }
 }
 
