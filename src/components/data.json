@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "title": "Lifestyle App",
+      "tags": ["Ruby", " Rails", " HTML", " Bootstrap", " RSpec", " Rubocop", " Heroku"],
+      "repository": "https://github.com/enkog/Lifestyle_app",
+      "live": "https://articulate-app.herokuapp.com/",
+      "image": "https://raw.githubusercontent.com/enkog/Lifestyle_app/development/app/assets/images/screenshot.png",
+      "description": "This project is based on a lifestyle articles website and is for Ruby on Rails capstone at Microverse. I have followed the given design, and I chose to develop this app for articles on women's lifestyles with 'Ruby on Rails. A new article can be created under one or multiple categories. You can upvote an article. The most voted article will be displayed on the home page's top section."
+    },
+    {
+      "id": 2,
+      "title": "To-do List App",
+      "tags": ["HTML", "CSS", "JavaScript", "Webpack"],
+      "repository": "https://github.com/enkog/To-do-List",
+      "live": "https://enkog.github.io/To-do-List/",
+      "image": "https://user-images.githubusercontent.com/26796167/150090910-fc7d4dfe-9b7a-4b26-ab4f-40eacd54b929.PNG",
+      "description": "The aim of this project is to create a to-do list website that simply lists the things that you need to do and allows you to mark them as complete. It is built with ES6 and webpack."
+    },
+    {
+      "id": 3,
+      "title": "Metrics Web App",
+      "tags": ["React", "Redux Toolkit", "Redux Thunk", "Axios", "CSS", "Jest", "React Testing Library"],
+      "repository": "https://github.com/enkog/Metrics-Webapp",
+      "live": "https://metrics-webapp.herokuapp.com/countries",
+      "image": "https://user-images.githubusercontent.com/26796167/150091959-2c10d9f5-c36e-47a3-9551-72461f311c43.png",
+      "description": "This project is a mobile web application that shows a list of all countries in the globe, together with their associated information. The home page displays a list of countries that may be filtered by area. The details page offers information about a country."
+    },
+    {
+      "id": 4,
+      "title": "Tic-Tac-Toe Game",
+      "tags": ["Ruby", "RSpec"],
+      "repository": "https://github.com/enkog/Tic-Tac-Toe",
+      "live": "https://replit.com/@enkodes/Tic-Tac-Toe-1",
+      "image": "https://user-images.githubusercontent.com/26796167/150094159-4617c7d4-0c2b-4b83-ba04-61cd473ea804.png",
+      "description": "This project is to demonstrate our knowledge of Object oriented programming in Ruby, building a tic-tac-toe game on the command line where two human players can play against each other and the board is displayed in between turns."
+    },
+    {
+      "id": 5,
+      "title": "Pokemon App",
+      "tags": ["HTML", "CSS", "JavaScript", "Bootstrap 5", "API"],
+      "repository": "https://github.com/enkog/Javascript-Captone",
+      "live": "https://themonster2015.github.io/Javascript-Captone/",
+      "image": "https://user-images.githubusercontent.com/10905837/132655413-fc864d18-cb6d-4eb5-b123-71297591e83c.png",
+      "description": "This is a web application based on an the Poke API which contains data about the pokemon world. It displays a home page showing a list of items that you can `like` and a popup window with more data about an item that you can use to comment on it or reserve it for a period of time."
+    },
+    {
+      "id": 6,
+      "title": "Penz Classes App",
+      "tags": ["React", "Redux", "Ruby on Rails", "HTML", "CSS"],
+      "repository": "https://github.com/enkog/Penz_Classes_Frontend",
+      "live": "https://penz-classes.netlify.app/",
+      "image": "https://user-images.githubusercontent.com/26796167/143007998-1d91dd51-cad4-4f57-b1c9-c3eb7b2156f4.PNG",
+      "description": "An online class app that allows users to see all available courses, reserve a spot in a class, see all reservations, add and delete courses."
+    }
+]

@@ -10,21 +10,21 @@ import './Hero.css';
 export default function Hero() {
     return (
         <section id="hero" className="text-center">
-            <nav id="portfolio-nav" class="navbar navbar-expand-md navbar-light">
-                <div class="container-fluid">
-                    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+            <nav id="portfolio-nav" className="navbar navbar-expand-md navbar-light">
+                <div className="container-fluid">
+                    <button className="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav justify-content-center align-items-center w-100 pri-color">
-                        <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#portfolio">Portfolio</a>
+                    <div className="collapse navbar-collapse" id="navbarNav">
+                    <ul className="navbar-nav justify-content-center align-items-center w-100 pri-color">
+                        <li className="nav-item">
+                          <a className="nav-link active" aria-current="page" href="#portfolio">Portfolio</a>
                         </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#about">About</a>
+                        <li className="nav-item">
+                          <a className="nav-link" href="#about">About</a>
                         </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#contact">Contact</a>
+                        <li className="nav-item">
+                          <a className="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                     </div>
