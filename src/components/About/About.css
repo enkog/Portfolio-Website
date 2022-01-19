@@ -28,11 +28,7 @@
 #about .badge {
   padding: 12px;
   text-align: center;
-  background: #FFFFFF !important;
+  background: #36B37F !important;
+  color: #fff;
   border-radius: 8px;
-}
-
-.portfolio-language .badge {
-  background: #EBF0EE !important;
-  color: #172B4D;
 }

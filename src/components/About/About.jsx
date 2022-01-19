@@ -29,7 +29,7 @@ export default function About() {
                         <Card.Body className='text-center'>
                             <Card.Title className='mb-3'>Languages</Card.Title>
                             <Card.Text>
-                              <div className='portfolio-language mb-3'>
+                              <div className='mb-3'>
                                   {languages.map((skills)=><Badge className='me-2 mb-2'>{skills}</Badge>)}
                               </div>
                             </Card.Text>
@@ -42,7 +42,7 @@ export default function About() {
                         <Card.Body className='text-center'>
                             <Card.Title className='mb-3'>Frameworks</Card.Title>
                             <Card.Text>
-                              <div className='portfolio-language mb-3'>
+                              <div className='mb-3'>
                               {frameworks.map((skills)=><Badge className='me-2 mb-2'>{skills}</Badge>)}
                               </div>
                             </Card.Text>
@@ -55,7 +55,7 @@ export default function About() {
                         <Card.Body className='text-center'>
                             <Card.Title className='mb-3'>Skills</Card.Title>
                             <Card.Text>
-                              <div className='portfolio-language mb-3'>
+                              <div className='mb-3'>
                               {otherSkills.map((skill)=><Badge className='me-2 mb-2'>{skill}</Badge>)}
                               </div>
                             </Card.Text>

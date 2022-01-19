@@ -23,7 +23,7 @@
       "tags": ["React", "Redux Toolkit", "Redux Thunk", "Axios", "CSS", "Jest", "React Testing Library"],
       "repository": "https://github.com/enkog/Metrics-Webapp",
       "live": "https://metrics-webapp.herokuapp.com/countries",
-      "image": "https://user-images.githubusercontent.com/26796167/150091959-2c10d9f5-c36e-47a3-9551-72461f311c43.png",
+      "image": "https://raw.githubusercontent.com/enkog/Metrics-Webapp/main/src/assets/screenshot.png",
       "description": "This project is a mobile web application that shows a list of all countries in the globe, together with their associated information. The home page displays a list of countries that may be filtered by area. The details page offers information about a country."
     },
     {

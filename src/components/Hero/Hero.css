@@ -45,7 +45,6 @@
 
 @media only screen and (max-width: 426px) {
   #hero {
-    background: url(../../assets/images/header-illsutration-mobile@2x.png) no-repeat center center/contain;
     min-height: 500px;
   }
 

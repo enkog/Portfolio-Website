@@ -7,7 +7,8 @@ import twitter from '../../assets/icons/twitter.svg';
 
 export default function Footer() {
     return (
-        <footer className='border-top pt-2 mt-5'>
+        <footer className='pt-2 mt-5'>
+            <hr />
             <ul className='social-icons d-flex justify-content-center align-items-center'>
             <li><a href='https://github.com/enkog'><img src={github} alt='github icon' /></a></li>
             <li><a href='https://www.linkedin.com/in/enkog/'><img src={linkedin} alt=' linkedin icon' /></a></li>
