@@ -1,0 +1,19 @@
+#contact {
+  height: 440px;
+  margin-bottom: 100px;
+  background: url(../../assets/images/contact-bg.png)no-repeat center center/1650px;
+}
+
+.contact-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 42px;
+    color: #172B4D;
+}
+
+.sec-color {
+  color: #36B37F;
+}
